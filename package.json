@@ -1,0 +1,39 @@
+{
+  "name": "@glitter/electron-window-as-wallpaper",
+  "version": "1.0.0",
+  "description": "A package for Electron that takes a BrowserWindow instance, and moves it to the wallpaper level (Windows only)",
+  "main": "./build/Release/electron-window-as-wallpaper",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glitter/electron-window-as-wallpaper.git"
+  },
+  "keywords": [
+    "electron",
+    "wallpaper",
+    "background",
+    "browserwindow"
+  ],
+  "author": {
+    "name": "Ante Sepic",
+    "email": "hello@tryglitter.com"
+  },
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/Glitter/electron-window-as-wallpaper/issues"
+  },
+  "homepage": "https://github.com/Glitter/electron-window-as-wallpaper#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.24"
+  },
+  "dependencies": {
+    "nan": "^2.14.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
