@@ -1,3 +1,3 @@
 /// <reference types="node" />
 
-export function RenderAsWallpaper(handle: Buffer): boolean;
+export function renderAsWallpaper(handle: Buffer): boolean;
