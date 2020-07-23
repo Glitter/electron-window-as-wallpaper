@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A package for Electron that takes a BrowserWindow instance, and moves it to the wallpaper level (Windows only)",
   "main": "./build/Release/electron-window-as-wallpaper",
+  "types": "./types.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "install": "node-gyp rebuild"
